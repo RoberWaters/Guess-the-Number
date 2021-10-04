@@ -44,11 +44,11 @@ def run():
         lives -= 1
 
         if lives == 0:
-            print("Perdiste :(")
+            print("You lost :(")
             break
 
         if chosen_number == ramdom_number:
-            print("¡Ganaste!")
+            print("Won!")
 
         else:
            print("You Have " + str(lives) + " lives")
